@@ -22,6 +22,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"audioLoop",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"playAudio",
                  "type":"string",
                  "value":"bells.mp3"
