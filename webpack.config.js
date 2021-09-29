@@ -4,6 +4,9 @@ module.exports = {
     devServer: {
         static: {
             directory: './'
+        },
+        headers: {
+            "Access-Control-Allow-Origin": "*",
         }
     }
 }
