@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>WorkAdventure XCE - Map Starter Kit</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
     <style>
@@ -15,7 +16,8 @@
 
       header, footer {
         text-align: center;
-        margin: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
       }
 
       .nes-container {
@@ -24,8 +26,9 @@
     </style>
   </head>
   <body>
-    <header>
-      <h2>Workadventure XCE - Map Starter Kit</h2>
+    <header style="display: flex; justify-content:center; align-items:center;">
+      <img style="margin-right: 1rem" src="assets/beer.png"/>
+      <h2 style="margin-top: 1rem">Workadventure XCE - Map Starter Kit</h2>
     </header>
     <main>
       <div class="nes-container with-title is-centered">
@@ -36,7 +39,8 @@
       </div>
       <div class="nes-container with-title">
         <p class="title">Custom server</p>
-        <div class="nes-field">
+        <i class="nes-logo" style="float: left; width: 10%"></i>
+        <div class="nes-field" style="display: inline-block; width: 89%">
           <input type="text" placeholder="play.workadventu.re" id="server_input" class="nes-input">
         </div>
       </div>
