@@ -3,8 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>WorkAdventure XCE - Map Starter Kit</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+      <style>
+        body {
+          margin: 2rem 0.5rem;
+          max-width: 980px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        header, footer {
+          text-align: center;
+          margin: 2rem;
+        }
+      </style>
+      <script>
+        window.onload = function() {
+          // default workadventure server
+          const waServer = 'https://play.workadventu.re';
+
+          const host = window.location.host;
+          let path = window.location.pathname;
+
+          // strip filename, if necessary
+          if (path.endsWith('index.html')) {
+            path = path.substr(path, path.length - 'index.html'.length);
+          }
+          const instanceId = Math.random().toString(36).substring(2, 15);
+
+          // build instance url
+          const url = `${waServer}/_/${instanceId}/${host}${path}map.json`;
+
+          document.getElementById('mapLink').href = url;
+          document.getElementById('mapLink').innerText = url;
+          document.getElementById('button').href = url;
+        };
+      </script>
   </head>
   <body>
-    <!-- page content -->
+    <header>
+      <h2>Workadventure XCE - Map Starter Kit</h2>
+    </header>
+    <main>
+      <div class="nes-container with-title is-centered" style="margin-top: 1rem">
+        <p class="title">Test this map</p>
+        <p>You can test this map at:</p>
+        <p><a id="mapLink" href=""></a>.</p>
+        <p><a id="button" href="" class="nes-btn is-primary">Test this map</a></p>
+      </div>
+      <div style="display: flex; margin: 2rem">
+        <a href="https://github.com/workadventure-xce/">
+          <i class="nes-octocat animate" style="margin-top: 4rem"></i>
+        </a>
+        <p class="nes-balloon from-left nes-pointer" style="margin: 1rem; margin-bottom: 5rem">
+        Find us on <a href="https://github.com/workadventure-xce/">Github</a>!
+        </p>
+      </div>
+    </main>
+    <footer>
+        <p>Inspired by the <a href="https://github.com/thecodingmachine/workadventure-map-starter-kit">WorkAdventure Map Starter Kit</a> by <a href="https://www.thecodingmachine.com">TheCodingMachine</a></p>
+    </footer>
   </body>
 </html>
