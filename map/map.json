@@ -190,7 +190,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"sound\/birds.mp3"
+                         "value":"assets/sound\/birds.mp3"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -331,7 +331,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"html\/integrated.html"
+                         "value":"assets/html\/integrated.html"
                         }],
                  "rotation":0,
                  "type":"",
@@ -480,7 +480,7 @@
         {
          "columns":8,
          "firstgid":1,
-         "image":"tilesets\/TX Tileset Grass.png",
+         "image":"assets/tilesets\/TX Tileset Grass.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -493,7 +493,7 @@
         {
          "columns":16,
          "firstgid":65,
-         "image":"tilesets\/TX Props.png",
+         "image":"assets/tilesets\/TX Props.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -563,7 +563,7 @@
         {
          "columns":16,
          "firstgid":321,
-         "image":"tilesets\/TX Tileset Wall.png",
+         "image":"assets/tilesets\/TX Tileset Wall.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -576,7 +576,7 @@
         {
          "columns":6,
          "firstgid":577,
-         "image":"tilesets\/Special_Zones.png",
+         "image":"assets/tilesets\/Special_Zones.png",
          "imageheight":64,
          "imagewidth":192,
          "margin":0,
@@ -599,7 +599,7 @@
         {
          "columns":16,
          "firstgid":589,
-         "image":"tilesets\/TX Struct.png",
+         "image":"assets/tilesets\/TX Struct.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -612,7 +612,7 @@
         {
          "columns":4,
          "firstgid":845,
-         "image":"tilesets\/TX Player.png",
+         "image":"assets/tilesets\/TX Player.png",
          "imageheight":128,
          "imagewidth":128,
          "margin":0,
@@ -625,7 +625,7 @@
         {
          "columns":16,
          "firstgid":861,
-         "image":"tilesets\/TX Plant.png",
+         "image":"assets/tilesets\/TX Plant.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -638,7 +638,7 @@
         {
          "columns":16,
          "firstgid":1117,
-         "image":"tilesets\/TX Shadow.png",
+         "image":"assets/tilesets\/TX Shadow.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -651,7 +651,7 @@
         {
          "columns":16,
          "firstgid":1373,
-         "image":"tilesets\/TX Shadow Plant.png",
+         "image":"assets/tilesets\/TX Shadow Plant.png",
          "imageheight":512,
          "imagewidth":512,
          "margin":0,
@@ -664,7 +664,7 @@
         {
          "columns":8,
          "firstgid":1629,
-         "image":"tilesets\/TX Tileset Stone Ground.png",
+         "image":"assets/tilesets\/TX Tileset Stone Ground.png",
          "imageheight":256,
          "imagewidth":256,
          "margin":0,
@@ -677,7 +677,7 @@
         {
          "columns":8,
          "firstgid":1693,
-         "image":"tilesets\/Cat Sprite Sheet.png",
+         "image":"assets/tilesets\/Cat Sprite Sheet.png",
          "imageheight":320,
          "imagewidth":256,
          "margin":0,
