@@ -71,7 +71,7 @@
       }
 
       // build instance url
-      let url = `https://${waServer}/_/${instanceId}/${host}${path}map/map.json`;
+      let url = `https://${waServer}/_/${instanceId}/${host}${path}map.json`;
 
       const mapLink = document.getElementById('mapLink');
       const button = document.getElementById('button');
@@ -86,7 +86,7 @@
       // update links on input
       const inputHandler = function(e) {
         waServer = e.target.value;
-        url = `https://${waServer}/_/${instanceId}/${host}${path}map/map.json`;
+        url = `https://${waServer}/_/${instanceId}/${host}${path}map.json`;
         mapLink.href = url;
         mapLink.innerText = url;
         button.href = url;
