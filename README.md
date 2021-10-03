@@ -1,10 +1,11 @@
-# workadventure-xce-map-starter-kit
+# WorkAdventure XCE Map Starter Kit
 
-A template repo for quickly getting started with creating maps for workadventure-xce
+A template repo for quickly getting started with creating maps for
+WorkAdventure XCE
 
 ## Installation
 
 ```shell
 yarn install
-yarn run 
+yarn run start
 ```
